@@ -1,0 +1,38 @@
+{
+  "name": "si-pedi-bungas-api-service",
+  "version": "1.0.0",
+  "description": "API Service",
+  "repository": {},
+  "scripts": {
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "docxtemplater": "^3.14.10",
+    "dotenv": "8.2.0",
+    "express": "^4.16.3",
+    "express-zip": "^2.0.1",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "^4.17.11",
+    "minio": "^7.0.10",
+    "moment": "^2.24.0",
+    "mongoose": "^5.2.6",
+    "mongoose-timezone": "^1.1.0",
+    "multer": "^1.4.1",
+    "path": "^0.12.7",
+    "pizzip": "3.0.6",
+    "redis": "^2.8.0",
+    "sharp": "^0.23.4",
+    "ua-parser-js": "^0.7.21",
+    "uniqid": "^4.1.1",
+    "xlsx_buffer_json": "^1.0.3"
+  }
+}

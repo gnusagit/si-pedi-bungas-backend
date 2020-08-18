@@ -1,0 +1,25 @@
+{
+  "name": "si-pedi-bungas-api-public-service",
+  "version": "1.0.0",
+  "description": "API Public Service",
+  "repository": {},
+  "scripts": {
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "minio": "^7.0.16",
+    "mongoose": "^5.2.6",
+    "mongoose-timezone": "^1.1.0",
+    "multer": "^1.4.2",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "redis": "^2.8.0",
+    "uniqid": "^4.1.1"
+  }
+}
