@@ -445,7 +445,8 @@ const controls = [{
     css: "webix_primary",
     icon: "mdi mdi-refresh",
     autowidth: true,
-    label: "Refresh"
+    label: "Refresh",
+    id:"refreshBtn"
 }, {}]
 const grid = {
     margin: 10,
